@@ -40,3 +40,54 @@ The exact quotas and payment details depend on your GitHub plan, a detailed summ
 
 If you can't find an "Actions" tab in your GitHub repository, you can should enable them as described here: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository
 
+## Module Sumamry
+
+### Core Components
+
+- Workflows: Define Events + Jobs
+- Jobs: Define Runner + Steps
+- Steps: Do the actual work
+
+### Events / Triggered
+
+- Broad variety of events (repository-related & more)
+- Workflows have at least one (possible more) event (s)
+
+### Defining Workflows
+
+- .github/workflows/<file>.yml (on Github or locally)
+- Github Actions syntax must be followed
+
+### Runners
+
+- Servers(machines) that execute the jobs
+- Pre-defined Runners (with different OS) exist
+- You can create custom Runners
+
+### Workflow Execution
+
+- Workflow are execute when their events are triggered
+- Github provides detailed insights into job execution (+logs)
+
+### Actions
+
+- You can run shell commands
+- But you can use pre-defined Actions (official, community or custom)
+
+## Exercise Time!
+
+Download the Github repository and Create a 2 Workflows
+
+1. Lint, Test & Deploy on "push"
+- Run the "lint", "test" & "build" scripts
+- Use One or Three jobs (running after each other)
+
+2. Output Event Details on "issues"
+- Output event details in the shell via "echo"
+- Use the "issues" event & "github" context
+
+# Section 2 Workflows & Events - Deep Dive
+
+## Module Introduction
+
+Dive deeper into Github Actions, Events and Get triggered Options
