@@ -1,0 +1,42 @@
+I'll take all notes comming from Udemy Course based on Github Actions.
+
+# Section 1 Github Actions - Basic Building Blocks & Components
+
+## Module Introduction
+
+### Key Components (Workflow - Jobs & Steps)
+
+Workflows Can be attached to all Guithub repositories, I can add as many I required
+
+Workflows can include 1 or more jobs
+
+Jobs Can contains 1 or more steps and here we can add all the strucutre we need to construct our code snippet
+
+#### Workflow
+
+- Attached to a Github repository
+- Contain one or more Jobs
+- Triggered upon Events (manually or Automatic after a new commits or new PR approved)
+
+#### Jobs
+
+- Define the Runner (execution Environment) Where do we're going to put our project or Website and set a agent to run, Windows, Linux MacOS
+- Contain one or more Steps
+- Can be run in Parallel or sequential
+- Can be conditional
+
+#### Steps
+
+- Execute a code snipp or Action
+- Can use custom or Third-party actions
+- Steps are executed in order
+- Can be conditional
+
+### GitHub Actions: Availability & Pricing
+
+In public repositories, you can use GitHub Actions for free. For private repositories, only a certain amount of monthly usage is available for free - extra usage on top must be paid.
+
+The exact quotas and payment details depend on your GitHub plan, a detailed summary can be found here: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions
+
+If you can't find an "Actions" tab in your GitHub repository, you can should enable them as described here: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository
+
